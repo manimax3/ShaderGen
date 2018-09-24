@@ -10,7 +10,7 @@ FUNCTION(PREPEND var prefix)
 ENDFUNCTION(PREPEND)
 
 set(ShaderGen_SRC log.cpp)
-set(ShaderGen_TESTS main.cpp)
+set(ShaderGen_TESTS main.cpp expression.cpp)
 
 PREPEND(ShaderGen_SRC src ${ShaderGen_SRC})
 PREPEND(ShaderGen_TESTS tests ${ShaderGen_TESTS})
